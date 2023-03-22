@@ -3,7 +3,6 @@ import java.util.*;
 public class CardPlayerLevel2 extends CardPlayer {
    public CardPlayerLevel2(String name, int score, ArrayList<Card> hand) {
       super(name, score, hand);
-      System.out.println("hello");
    }
    @Override
    public Card chooseCard(ArrayList<Card> cardsPlayedThisRound, ArrayList<Card> cardsPlayedPreviousRounds) {
