@@ -14,7 +14,7 @@ public class CardGame {
       this.currentPlayer = currentPlayer;
       players = new ArrayList<CardPlayer>();
 
-      players.add(new CardPlayerLevel2(names[0], 0, new ArrayList<Card>()));
+      players.add(new CardSharkA(names[0], 0, new ArrayList<Card>()));
       for (int i = 1; i<numberOfPlayers; i++) {
          players.add(new CardPlayer(names[i], 0, new ArrayList<Card>()));
       }

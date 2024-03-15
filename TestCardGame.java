@@ -17,7 +17,7 @@ public class TestCardGame {
         System.out.println("Total Number of Bad Points = " + totalBadPoints);
         for(int k = 0; k<players.length; k++) {
             System.out.printf("%s %2d   ",game.getPlayers().get(k).getName(),game.getPlayers().get(k).getScore());
-            System.out.println(" " + Math.round((game.getPlayers().get(k).getScore() / (double) totalBadPoints)*100) + "%");
+            System.out.println(" " + game.getPlayers().get(k).getScore() / (double) totalBadPoints *100 + "%");
         }
     }
 }
